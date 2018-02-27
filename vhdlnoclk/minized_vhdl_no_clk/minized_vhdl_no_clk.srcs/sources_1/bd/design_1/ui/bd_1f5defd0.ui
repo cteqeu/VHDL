@@ -1,0 +1,23 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.6.11  2017-06-12 bk=1.3860 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -y -150 -defaultsOSRD
+preplace port g_led -pg 1 -y 70 -defaultsOSRD
+preplace port r_led -pg 1 -y 50 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y -130 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 1 -y 110 -defaultsOSRD
+preplace inst vhdlnoclk_0 -pg 1 -lvl 2 -y 60 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -y -80 -defaultsOSRD
+preplace netloc processing_system7_0_DDR 1 1 2 NJ -150 NJ
+preplace netloc xlconstant_0_dout 1 1 1 180
+preplace netloc processing_system7_0_FIXED_IO 1 1 2 NJ -130 NJ
+preplace netloc processing_system7_0_FCLK_CLK0 1 1 1 180
+preplace netloc vhdlnoclk_0_g_led 1 2 1 N
+preplace netloc vhdlnoclk_0_r_led 1 2 1 N
+levelinfo -pg 1 -170 40 530 660 -top -220 -bot 160
+",
+}
+{
+   da_ps7_cnt: "1",
+}
