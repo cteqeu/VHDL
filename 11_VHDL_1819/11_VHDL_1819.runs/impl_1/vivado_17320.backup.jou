@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Mar  5 09:36:43 2019
+# Process ID: 17320
+# Current directory: C:/Users/20002890/11_VHDL_1819/11_VHDL_1819.runs/impl_1
+# Command line: vivado.exe -log hardware.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source hardware.tcl -notrace
+# Log file: C:/Users/20002890/11_VHDL_1819/11_VHDL_1819.runs/impl_1/hardware.vdi
+# Journal file: C:/Users/20002890/11_VHDL_1819/11_VHDL_1819.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source hardware.tcl -notrace
