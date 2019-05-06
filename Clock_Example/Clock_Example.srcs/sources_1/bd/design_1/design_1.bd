@@ -1,0 +1,180 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x5CE44E2535F83B86",
+      "device": "xc7z007sclg225-1",
+      "name": "design_1",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2018.3",
+      "validated": "true"
+    },
+    "design_tree": {
+      "clk_wiz_0": "",
+      "testclk_0": ""
+    },
+    "ports": {
+      "clk_4MHz_0": {
+        "direction": "O"
+      },
+      "temp_0": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "out65": {
+        "type": "clk",
+        "direction": "O",
+        "parameters": {
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.000",
+            "value_src": "default"
+          }
+        }
+      },
+      "out40": {
+        "type": "clk",
+        "direction": "O",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "/clk_wiz_0_clk_out1",
+            "value_src": "ip_prop"
+          },
+          "FREQ_HZ": {
+            "value": "40000000",
+            "value_src": "ip_prop"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "ip_prop"
+          }
+        }
+      },
+      "in_clk65": {
+        "direction": "I"
+      }
+    },
+    "components": {
+      "clk_wiz_0": {
+        "vlnv": "xilinx.com:ip:clk_wiz:6.0",
+        "xci_name": "design_1_clk_wiz_0_0",
+        "parameters": {
+          "CLKIN1_JITTER_PS": {
+            "value": "153.84"
+          },
+          "CLKOUT1_JITTER": {
+            "value": "183.203"
+          },
+          "CLKOUT1_PHASE_ERROR": {
+            "value": "109.791"
+          },
+          "CLKOUT1_REQUESTED_OUT_FREQ": {
+            "value": "40"
+          },
+          "CLK_OUT1_PORT": {
+            "value": "Clk_40MHz"
+          },
+          "MMCM_CLKFBOUT_MULT_F": {
+            "value": "15.000"
+          },
+          "MMCM_CLKIN1_PERIOD": {
+            "value": "15.385"
+          },
+          "MMCM_CLKIN2_PERIOD": {
+            "value": "10.0"
+          },
+          "MMCM_CLKOUT0_DIVIDE_F": {
+            "value": "24.375"
+          },
+          "MMCM_DIVCLK_DIVIDE": {
+            "value": "1"
+          },
+          "PRIM_IN_FREQ": {
+            "value": "65"
+          },
+          "USE_LOCKED": {
+            "value": "false"
+          },
+          "USE_RESET": {
+            "value": "false"
+          }
+        }
+      },
+      "testclk_0": {
+        "vlnv": "xilinx.com:module_ref:testclk:1.0",
+        "xci_name": "design_1_testclk_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "testclk",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk_40MHz": {
+            "direction": "I",
+            "parameters": {
+              "CLK_DOMAIN": {
+                "value": "/clk_wiz_0_clk_out1",
+                "value_src": "ip_prop"
+              },
+              "FREQ_HZ": {
+                "value": "40000000",
+                "value_src": "ip_prop"
+              },
+              "PHASE": {
+                "value": "0.0",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "clk_4MHz": {
+            "direction": "O"
+          },
+          "temp": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          }
+        }
+      }
+    },
+    "nets": {
+      "vhdlnoclk_0_clk65MHz": {
+        "ports": [
+          "in_clk65",
+          "clk_wiz_0/clk_in1",
+          "out65"
+        ]
+      },
+      "clk_wiz_0_Clk_40MHz": {
+        "ports": [
+          "clk_wiz_0/Clk_40MHz",
+          "out40",
+          "testclk_0/clk_40MHz"
+        ]
+      },
+      "testclk_0_clk_4MHz": {
+        "ports": [
+          "testclk_0/clk_4MHz",
+          "clk_4MHz_0"
+        ]
+      },
+      "testclk_0_temp": {
+        "ports": [
+          "testclk_0/temp",
+          "temp_0"
+        ]
+      }
+    }
+  }
+}
