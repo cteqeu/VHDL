@@ -1,0 +1,180 @@
+# Design Explorer: Shortcut to "D:\GIT\Github\DigitaleSystemenVHDL\Lattice\Tutorial_1\Tutorial1\Tutorial1.aws" design added.
+designverincludedir -clear
+designverlibrarysim -PL -clear
+designverlibrarysim -L -clear
+designverlibrarysim ovi_ice40up
+designverdefinemacro -clear
+addfile C:/lscc/radiant/1.1/ip/pmi/pmi_iCE40UP.v
+# Adding file C:\lscc\radiant\1.1\ip\pmi\pmi_iCE40UP.v ... Done
+addfile D:/GIT/Github/DigitaleSystemenVHDL/Lattice/Tutorial_1/tutorial1.vhd
+# Adding file D:\GIT\Github\DigitaleSystemenVHDL\Lattice\Tutorial_1\tutorial1.vhd ... Done
+vlib D:/GIT/Github/DigitaleSystemenVHDL/Lattice/Tutorial_1/Tutorial1/work
+# Adding library O.K.
+adel -all
+# Library contents cleared.
+vlib pmi
+# Adding library O.K.
+vcom -work pmi C:/lscc/radiant/1.1/ip/pmi/pmi_iCE40UP.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\lscc\radiant\1.1\ip\pmi\pmi_iCE40UP.vhd
+# Compile Package "components"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+vlog -dbg -work work C:/lscc/radiant/1.1/ip/pmi/pmi_iCE40UP.v
+# Pass 1. Scanning modules hierarchy.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Unit top modules: pmi_addsub pmi_add pmi_complex_mult pmi_counter pmi_fifo pmi_fifo_dc pmi_mac pmi_multaddsubsum pmi_multaddsub pmi_mult pmi_ram_dp pmi_ram_dq pmi_rom pmi_sub pmi_ram_dp_be pmi_ram_dq_be pmi_dsp.
+# $root top modules: pmi_addsub pmi_add pmi_complex_mult pmi_counter pmi_fifo pmi_fifo_dc pmi_mac pmi_multaddsubsum pmi_multaddsub pmi_mult pmi_ram_dp pmi_ram_dq pmi_rom pmi_sub pmi_ram_dp_be pmi_ram_dq_be pmi_dsp.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# done
+vcom -dbg -work work D:/GIT/Github/DigitaleSystemenVHDL/Lattice/Tutorial_1/tutorial1.vhd
+# File: D:\GIT\Github\DigitaleSystemenVHDL\Lattice\Tutorial_1\tutorial1.vhd
+# Compile Entity "tutorial1"
+# Compile Architecture "Behavioral" of Entity "tutorial1"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+entity tutorial1
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+vsim +access +r tutorial1 -L ovi_ice40up
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6064 kB (elbread=1280 elab2=4646 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location D:\GIT\Github\DigitaleSystemenVHDL\Lattice\Tutorial_1\Tutorial1\src\wave.asdb
+#  16:41, vrijdag 17 mei 2019
+#  Simulation has been initialized
+add wave *
+# 3 signal(s) traced.
+run 1000ns
+# Waveform file 'untitled.awc' connected to 'D:/GIT/Github/DigitaleSystemenVHDL/Lattice/Tutorial_1/Tutorial1/src/wave.asdb'.
+# KERNEL: stopped at time: 1 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 100 ns
+# KERNEL: stopped at time: 1100 ns
+run 100 ns
+# KERNEL: stopped at time: 1200 ns
+run 100 ns
+# KERNEL: stopped at time: 1300 ns
+run 100 ns
+# KERNEL: stopped at time: 1400 ns
+run 100 ns
+# KERNEL: stopped at time: 1500 ns
+run 100 ns
+# KERNEL: stopped at time: 1600 ns
+run 100 ns
+# KERNEL: stopped at time: 1700 ns
+run 100 ns
+# KERNEL: stopped at time: 1800 ns
+run 100 ns
+# KERNEL: stopped at time: 1900 ns
+run 100 ns
+# KERNEL: stopped at time: 2 us
+# Error: You do not have valid license to run C Code Debug.
+# Error: Contact Aldec for ordering information sales@aldec.com
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6064 kB (elbread=1280 elab2=4646 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location D:\GIT\Github\DigitaleSystemenVHDL\Lattice\Tutorial_1\Tutorial1\src\wave.asdb
+#  16:49, vrijdag 17 mei 2019
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/GIT/Github/DigitaleSystemenVHDL/Lattice/Tutorial_1/Tutorial1/src/wave.asdb'.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6064 kB (elbread=1280 elab2=4646 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location D:\GIT\Github\DigitaleSystemenVHDL\Lattice\Tutorial_1\Tutorial1\src\wave.asdb
+#  16:50, vrijdag 17 mei 2019
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/GIT/Github/DigitaleSystemenVHDL/Lattice/Tutorial_1/Tutorial1/src/wave.asdb'.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+run 100 ns
+# KERNEL: stopped at time: 600 ns
+run 1000 ns
+# KERNEL: stopped at time: 1600 ns
+# Waveform file 'untitled.awc' connected to 'D:/GIT/Github/DigitaleSystemenVHDL/Lattice/Tutorial_1/Tutorial1.asdb'.
+# Adding file D:\GIT\Github\DigitaleSystemenVHDL\Lattice\Tutorial_1\Tutorial1.asdb ... Done
+# Adding file D:\GIT\Github\DigitaleSystemenVHDL\Lattice\Tutorial_1\Tutorial1.awc ... Done
+alog -O2 -sve -msg 5 -v2k5 -work work {C:\lscc\radiant\1.1\ip\pmi\pmi_iCE40UP.v}
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: pmi_addsub pmi_add pmi_complex_mult pmi_counter pmi_fifo pmi_fifo_dc pmi_mac pmi_multaddsubsum pmi_multaddsub pmi_mult pmi_ram_dp pmi_ram_dq pmi_rom pmi_sub pmi_ram_dp_be pmi_ram_dq_be pmi_dsp.
+# $root top modules: pmi_addsub pmi_add pmi_complex_mult pmi_counter pmi_fifo pmi_fifo_dc pmi_mac pmi_multaddsubsum pmi_multaddsub pmi_mult pmi_ram_dp pmi_ram_dq pmi_rom pmi_sub pmi_ram_dp_be pmi_ram_dq_be pmi_dsp.
+# Compile success 0 Errors 0 Warnings  Analysis time: 2[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+acom -O3 -e 100 -work work -2002  $dsn/../tutorial1.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\GIT\Github\DigitaleSystemenVHDL\Lattice\Tutorial_1\tutorial1.vhd
+# Compile Entity "tutorial1"
+# Compile Architecture "Behavioral" of Entity "tutorial1"
+# Compile success 0 Errors 0 Warnings  Analysis time :  46.0 [ms]

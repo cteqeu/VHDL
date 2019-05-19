@@ -1,0 +1,5 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: D:\GIT\Github\DigitaleSystemenVHDL\Lattice\Tutorial_1\tutorial1.vhd" 
+MESSAGE "Compile Entity "tutorial1"" 
+MESSAGE "Compile Architecture "Behavioral" of Entity "tutorial1"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  46.0 [ms]" 

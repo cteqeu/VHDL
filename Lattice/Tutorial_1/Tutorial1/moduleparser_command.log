@@ -1,0 +1,1 @@
+C:/lscc/radiant/1.1/bin/nt64/moduleparser.exe -PROJ Tutorial1 -pf C:/lscc/radiant/1.1/cae_library/synthesis/vhdl/iCE40UP.vhd -lib iCE40UP -lst D:/GIT/Github/DigitaleSystemenVHDL/Lattice/Tutorial_1/Tutorial1/source_files.lst

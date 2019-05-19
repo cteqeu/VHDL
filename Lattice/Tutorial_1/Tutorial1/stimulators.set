@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XML>
+	<document type="stimulators" version="1">
+		<set name="ASDB Stimulators" active="1"/>
+		<set name="ASDB Stimulators 1" active="0">
+			<stimulator>
+				<signal_path value="/tutorial1/number1(1)"/>
+				<rawdescription value="CLK:FRM:Override:100.000000;2;1;0;50;1:Clock:1:"/>
+			</stimulator>
+		</set>
+	</document>
+</XML>

@@ -1,0 +1,7 @@
+---------------------------------------------------
+Report for cell tutorial1
+   Instance path: tutorial1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          2        100.0
+                                 IOBUF	          6        100.0

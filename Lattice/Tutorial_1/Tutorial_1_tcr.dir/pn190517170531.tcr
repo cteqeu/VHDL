@@ -1,0 +1,18 @@
+#Start recording tcl command: 5/17/2019 15:00:16
+#Project Location: D:/GIT/Github/DigitaleSystemenVHDL/Lattice/Tutorial_1; Project name: Tutorial_1
+prj_create -name "Tutorial_1" -impl "impl_1" -dev iCE40UP5K-SG48I -performance "High-Performance_1.2V" -synthesis "lse"
+prj_save 
+prj_add_source "D:/GIT/Github/DigitaleSystemenVHDL/Lattice/Tutorial_1/tutorial1.vhd"
+prj_run Synthesis -impl impl_1
+prj_run Synthesis -impl impl_1 -task Lattice_Synthesis
+prj_run Synthesis -impl impl_1
+prj_add_source "D:/GIT/Github/DigitaleSystemenVHDL/Lattice/Tutorial_1/Tutorial1.pdc"
+prj_enable_source "D:/GIT/Github/DigitaleSystemenVHDL/Lattice/Tutorial_1/Tutorial1.pdc"
+rvl_new_project
+rvl_close_project -force
+prj_add_source "D:/GIT/Github/DigitaleSystemenVHDL/Lattice/Tutorial_1/Tutorial1/Tutorial1.spf"
+launch_programmer_prj "C:/lscc/radiant/1.1"
+prj_run Map -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+#Stop recording: 5/17/2019 17:05:31

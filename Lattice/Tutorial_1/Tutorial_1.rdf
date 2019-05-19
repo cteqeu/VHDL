@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RadiantProject version="4.1" title="Tutorial_1" device="iCE40UP5K-SG48I" performance_grade="High-Performance_1.2V" default_implementation="impl_1">
+    <Options/>
+    <Implementation title="impl_1" dir="impl_1" description="impl_1" synthesis="lse" default_strategy="Strategy1">
+        <Options def_top="tutorial1"/>
+        <Source name="tutorial1.vhd" type="VHDL" type_short="VHDL">
+            <Options top_module="tutorial1"/>
+        </Source>
+        <Source name="source/impl_1.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+        <Source name="Tutorial1.pdc" type="Physical Constraints File" type_short="PDC">
+            <Options/>
+        </Source>
+        <Source name="Tutorial1/Tutorial1.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="Tutorial_11.sty"/>
+</RadiantProject>

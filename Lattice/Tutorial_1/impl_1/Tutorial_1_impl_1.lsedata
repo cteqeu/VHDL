@@ -1,0 +1,82 @@
+<top name = "tutorial1"  library = "work"  arch = "RTL"  entry = "VHDL">
+
+<clocks>
+</clocks>
+
+<!--
+    //=============================================================
+    //  Number of Clocks processed: 0
+    //
+    //  If a clock cannot be found in the top level pins section,
+    //  that means it is an internal clock.
+    //
+    //=============================================================
+-->
+
+<library name = "generic">
+
+</library>
+
+<library name = "lsccsp">
+
+</library>
+
+<library name = "lsccspparam">
+
+</library>
+
+<library name = "work">
+
+<unit name = "tutorial1">
+
+    <!--
+        Top Level Pins: 6
+    -->
+
+    <pins>
+        <pitem  name = "number1[1]"  direction = "in"  />
+        <pitem  name = "number1[0]"  direction = "in"  />
+        <pitem  name = "number2[1]"  direction = "in"  />
+        <pitem  name = "number2[0]"  direction = "in"  />
+        <pitem  name = "result1[1]"  direction = "out"  />
+        <pitem  name = "result1[0]"  direction = "out"  />
+    </pins>
+
+    <!--
+        Instances in netlist: 1
+    -->
+
+    <instance  name = "number1_1__I_0"  library = "work"  arch = "RTL"  type = "comb">
+        <pins>
+        <pitem  name = "cin"  direction = "in"  />
+        <pitem  name = "a[1]"  direction = "in"  />
+        <pitem  name = "a[0]"  direction = "in"  />
+        <pitem  name = "b[1]"  direction = "in"  />
+        <pitem  name = "b[0]"  direction = "in"  />
+        <pitem  name = "o[1]"  direction = "out"  />
+        <pitem  name = "o[0]"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "gnd"  />
+        <nitem  name = "number1[1]"  />
+        <nitem  name = "number1[0]"  />
+        <nitem  name = "number2[1]"  />
+        <nitem  name = "number2[0]"  />
+        <nitem  name = "result1[1]"  />
+        <nitem  name = "result1[0]"  />
+        </nets>
+    </instance>
+
+    <!--
+        Views in design "tutorial1": 0
+    -->
+
+    <views>
+    </views>
+
+</unit>
+
+</library>
+
+</top>

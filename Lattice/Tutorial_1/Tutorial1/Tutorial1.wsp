@@ -1,0 +1,14 @@
+[COMPILESTATUS|C:\lscc\radiant\1.1\ip\pmi\pmi_iCE40UP.v]
+FileTimeLow=30692454
+Status=Compiled
+[COMPILESTATUS|.\..\tutorial1.vhd]
+FileTimeLow=30739637
+Status=Compiled
+[COMPILESTATUS|.\..\Tutorial1.asdb]
+FileTimeLow=30739648
+Status=Modified
+[COMPILESTATUS|.\..\Tutorial1.awc]
+FileTimeLow=30739648
+Status=Modified
+[Gui config]
+RunFor=1000 ns

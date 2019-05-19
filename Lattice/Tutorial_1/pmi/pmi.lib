@@ -1,0 +1,19 @@
+timestamp=1558104073502
+
+[~A]
+ModifyID=1
+Version=74
+
+[components]
+E=1*0
+I=0*11667
+M=3|0|vde|1558104073490|C:/lscc/radiant/1.1/ip/pmi/pmi_iCE40UP.vhd|0*419*0xab2006fe53556840a3d6732b88960846d9d61e40|0*11561*0x23b75c12e3e89f2ef000564498faa8c2
+R=C:/lscc/radiant/1.1/ip/pmi/pmi_iCE40UP.vhd|4
+Version=10.5.216.6767 (Windows)|00000000|fc77636590c085cf501b84375ffea0d325d9a91aaf5de936f2501295d7c0d611b19d6f74144cf92824ca34ee127c7e42
+
+[~MFT]
+0=5|0pmi.mgf|11667|0
+1=1|1pmi.mgf|0|0
+
+[~U]
+components=3|0*0|0*126

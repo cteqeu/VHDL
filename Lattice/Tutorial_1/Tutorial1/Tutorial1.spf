@@ -1,0 +1,7 @@
+<RadiantSimulationProject version="2.0" language="1" name="Tutorial1" stage="0" simType="Active-HDL" path=".">
+    <Source worklib="work" include="none" type="VHDL" path="tutorial1.vhd"/>
+    <SimLib value="ovi_ice40up"/>
+    <GlbInc value=""/>
+    <Macro value=""/>
+    <TopModule language="VHDL" name="tutorial1" instance=""/>
+</RadiantSimulationProject>

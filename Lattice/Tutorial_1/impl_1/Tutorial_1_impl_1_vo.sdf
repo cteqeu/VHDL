@@ -1,0 +1,97 @@
+(DELAYFILE
+  (SDFVERSION "3.0")
+  (DESIGN "tutorial1")
+  (DATE "Fri May 17 16:59:13 2019")
+  (VENDOR "Lattice")
+  (PROGRAM "backanno")
+  (VERSION "Radiant Software (64-bit) 1.1.0.165.1")
+  (DIVIDER /)
+  (VOLTAGE 1.26:1.20:1.14)
+  (PROCESS "default")
+  (TEMPERATURE -40:25:85)
+  (TIMESCALE 1ps)
+  (CELL
+    (CELLTYPE "SLICE_0")
+    (INSTANCE SLICE_0)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH D1 F1 (450:463:477)(450:463:477))
+        (IOPATH C1 F1 (450:463:477)(450:463:477))
+        (IOPATH B1 F1 (450:463:477)(450:463:477))
+        (IOPATH A1 F1 (450:463:477)(450:463:477))
+        (IOPATH D0 F0 (450:463:477)(450:463:477))
+        (IOPATH B0 F0 (450:463:477)(450:463:477))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "number2_1_")
+    (INSTANCE number2\[1\]_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH number21 PADDI (460:485:510)(460:485:510))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "result1_1_")
+    (INSTANCE result1\[1\]_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO result11 (1914:2001:2088)(1914:2001:2088))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "number1_1_")
+    (INSTANCE number1\[1\]_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH number11 PADDI (460:485:510)(460:485:510))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "number1_0_")
+    (INSTANCE number1\[0\]_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH number10 PADDI (460:485:510)(460:485:510))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "number2_0_")
+    (INSTANCE number2\[0\]_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH number20 PADDI (460:485:510)(460:485:510))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "result1_0_")
+    (INSTANCE result1\[0\]_I)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH PADDO result10 (1914:2001:2088)(1914:2001:2088))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "tutorial1")
+    (INSTANCE )
+    (DELAY
+      (ABSOLUTE
+        (INTERCONNECT number2\[1\]_I/PADDI SLICE_0/D1 (3642:3761:3881)(3642:3761:3881))
+        (INTERCONNECT number2\[0\]_I/PADDI SLICE_0/C1 (2715:2913:3112)(2715:2913:3112))
+        (INTERCONNECT number2\[0\]_I/PADDI SLICE_0/B0 (2768:2966:3165)(2768:2966:3165))
+        (INTERCONNECT number1\[1\]_I/PADDI SLICE_0/B1 (3311:3496:3682)(3311:3496:3682))
+        (INTERCONNECT number1\[0\]_I/PADDI SLICE_0/A1 (5470:6410:7351)(5470:6410:7351))
+        (INTERCONNECT number1\[0\]_I/PADDI SLICE_0/D0 (5059:6013:6967)(5059:6013:6967))
+        (INTERCONNECT SLICE_0/F0 result1\[0\]_I/PADDO (7761:7847:7933)(7761:7847:7933))
+        (INTERCONNECT SLICE_0/F1 result1\[1\]_I/PADDO (5616:5688:5761)(5616:5688:5761))
+      )
+    )
+  )
+)

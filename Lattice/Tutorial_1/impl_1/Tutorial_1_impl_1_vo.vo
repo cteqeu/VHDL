@@ -1,0 +1,153 @@
+
+// Verilog netlist produced by program backanno, Version Radiant Software (64-bit) 1.1.0.165.1
+
+// backanno -o Tutorial_1_impl_1_vo.vo -sp High-Performance_1.2V -w -neg -gui Tutorial_1_impl_1.udb 
+// Netlist created on Fri May 17 16:59:00 2019
+// Netlist written on Fri May 17 16:59:13 2019
+// Design is for device iCE40UP5K
+// Design is for package SG48
+// Design is for performance grade High-Performance_1.2V
+
+`timescale 1 ns / 1 ps
+
+module tutorial1 ( number2, result1, number1 );
+  input  [1:0] number2;
+  input  [1:0] number1;
+  output [1:0] result1;
+  wire   number2_c_1, number2_c_0, number1_c_1, number1_c_0, result1_c_0, 
+         result1_c_1;
+
+  SLICE_0 SLICE_0( .D1(number2_c_1), .C1(number2_c_0), .B1(number1_c_1), 
+    .A1(number1_c_0), .D0(number1_c_0), .B0(number2_c_0), .F0(result1_c_0), 
+    .F1(result1_c_1));
+  number2_1_ \number2[1]_I ( .PADDI(number2_c_1), .number21(number2[1]));
+  result1_1_ \result1[1]_I ( .PADDO(result1_c_1), .result11(result1[1]));
+  number1_1_ \number1[1]_I ( .PADDI(number1_c_1), .number11(number1[1]));
+  number1_0_ \number1[0]_I ( .PADDI(number1_c_0), .number10(number1[0]));
+  number2_0_ \number2[0]_I ( .PADDI(number2_c_0), .number20(number2[0]));
+  result1_0_ \result1[0]_I ( .PADDO(result1_c_0), .result10(result1[0]));
+endmodule
+
+module SLICE_0 ( input D1, C1, B1, A1, D0, B0, output F0, F1 );
+  wire   GNDI;
+
+  lut4 i2_4_lut( .A(A1), .B(B1), .C(C1), .D(D1), .Z(F1));
+  lut40001 i8_2_lut( .A(GNDI), .B(B0), .C(GNDI), .D(D0), .Z(F0));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (D1 => F1) = (0:0:0,0:0:0);
+    (C1 => F1) = (0:0:0,0:0:0);
+    (B1 => F1) = (0:0:0,0:0:0);
+    (A1 => F1) = (0:0:0,0:0:0);
+    (D0 => F0) = (0:0:0,0:0:0);
+    (B0 => F0) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module lut4 ( input A, B, C, D, output Z );
+
+  LUT4 #("0x936C") INST10( .A(A), .B(B), .C(C), .D(D), .Z(Z));
+endmodule
+
+module lut40001 ( input A, B, C, D, output Z );
+
+  LUT4 #("0x33CC") INST10( .A(A), .B(B), .C(C), .D(D), .Z(Z));
+endmodule
+
+module gnd ( output PWR0 );
+
+  VLO INST1( .Z(PWR0));
+endmodule
+
+module number2_1_ ( output PADDI, input number21 );
+  wire   GNDI;
+
+  BB_B_B \number2_pad[1].bb_inst ( .T_N(GNDI), .I(GNDI), .O(PADDI), 
+    .B(number21));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (number21 => PADDI) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module BB_B_B ( input T_N, I, output O, inout B );
+
+  BB_B INST10( .T_N(T_N), .I(I), .O(O), .B(B));
+endmodule
+
+module result1_1_ ( input PADDO, output result11 );
+  wire   VCCI;
+
+  BB_OD_B \result1_pad[1].bb_inst ( .T_N(VCCI), .I(PADDO), .O(), .B(result11));
+  vcc DRIVEVCC( .PWR1(VCCI));
+
+  specify
+    (PADDO => result11) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module BB_OD_B ( input T_N, I, output O, inout B );
+
+  BB_OD INST10( .T_N(T_N), .I(I), .O(O), .B(B));
+endmodule
+
+module vcc ( output PWR1 );
+
+  VHI INST1( .Z(PWR1));
+endmodule
+
+module number1_1_ ( output PADDI, input number11 );
+  wire   GNDI;
+
+  BB_B_B \number1_pad[1].bb_inst ( .T_N(GNDI), .I(GNDI), .O(PADDI), 
+    .B(number11));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (number11 => PADDI) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module number1_0_ ( output PADDI, input number10 );
+  wire   GNDI;
+
+  BB_B_B \number1_pad[0].bb_inst ( .T_N(GNDI), .I(GNDI), .O(PADDI), 
+    .B(number10));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (number10 => PADDI) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module number2_0_ ( output PADDI, input number20 );
+  wire   GNDI;
+
+  BB_B_B \number2_pad[0].bb_inst ( .T_N(GNDI), .I(GNDI), .O(PADDI), 
+    .B(number20));
+  gnd DRIVEGND( .PWR0(GNDI));
+
+  specify
+    (number20 => PADDI) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule
+
+module result1_0_ ( input PADDO, output result10 );
+  wire   VCCI;
+
+  BB_OD_B \result1_pad[0].bb_inst ( .T_N(VCCI), .I(PADDO), .O(), .B(result10));
+  vcc DRIVEVCC( .PWR1(VCCI));
+
+  specify
+    (PADDO => result10) = (0:0:0,0:0:0);
+  endspecify
+
+endmodule

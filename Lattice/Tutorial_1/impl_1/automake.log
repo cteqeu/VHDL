@@ -1,0 +1,80 @@
+
+bitgen -w "Tutorial_1_impl_1.udb" -f "Tutorial_1_impl_1.t2b" 
+Loading Tutorial_1_impl_1.udb ...
+Loading device for application udb from file 'itpa08.nph' in environment: C:/lscc/radiant/1.1/ispfpga.
+Design:  tutorial1
+Family:  iCE40UP
+Device:  iCE40UP5K
+Package: SG48
+Performance Grade:   High-Performance_1.2V
+Successfully loading udb from disks and to up-layer in CPU time: 0 secs , REAL time: 0 secs 
+
+
+
+BITGEN: Bitstream Generator Radiant Software (64-bit) 1.1.0.165.1
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
+
+
+Running DRC.
+DRC detected 0 errors and 0 warnings.
+
+Preference Summary:
++---------------------------------+---------------------------------+
+|  Preference                     |  Current Setting                |
++---------------------------------+---------------------------------+
+ *  Default setting.
+ ** The specified setting matches the default setting.
+
+
+Creating bit map...
+Saving bit stream in "D:\GIT\Github\DigitaleSystemenVHDL\Lattice\Tutorial_1\impl_1\Tutorial_1_impl_1.bin".
+
+ibisgen "Tutorial_1_impl_1.udb" "C:/lscc/radiant/1.1/cae_library/ibis/iCE40UP.ibs"
+IBIS Models Generator: Lattice Radiant Software (64-bit) 1.1.0.165.1
+
+Fri May 17 16:59:09 2019
+
+Loading Tutorial_1_impl_1.udb ...
+Loading device for application udb from file 'itpa08.nph' in environment: C:/lscc/radiant/1.1/ispfpga.
+Design:  tutorial1
+Family:  iCE40UP
+Device:  iCE40UP5K
+Package: SG48
+Performance Grade:   High-Performance_1.2V
+Successfully loading udb from disks and to up-layer in CPU time: 0 secs , REAL time: 0 secs 
+
+Created design models.
+
+
+Generating: D:\GIT\Github\DigitaleSystemenVHDL\Lattice\Tutorial_1\impl_1\IBIS\Tutorial_1_impl_1.ibs
+
+
+INFO - Design IBIS models are generated for board level analysis.
+
+backanno "Tutorial_1_impl_1.udb"  -o "Tutorial_1_impl_1_vo.vo"      -sp "High-Performance_1.2V"  -w -neg
+backanno: version Radiant Software (64-bit) 1.1.0.165.1
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
+
+Loading Tutorial_1_impl_1.udb ...
+Loading device for application udb from file 'itpa08.nph' in environment: C:/lscc/radiant/1.1/ispfpga.
+Design:  tutorial1
+Family:  iCE40UP
+Device:  iCE40UP5K
+Package: SG48
+Performance Grade:   High-Performance_1.2V
+Writing a verilog netlist based on the Tutorial_1_impl_1 design file.
+
+Writing Verilog netlist to file Tutorial_1_impl_1_vo.vo
+Writing SDF timing to file Tutorial_1_impl_1_vo.sdf
+Backanno finished with 0 posted error messages.
+Total CPU Time: 1 secs 
+Total REAL Time: 2 secs 
+Peak Memory Usage: 85 MB

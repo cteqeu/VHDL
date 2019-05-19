@@ -1,0 +1,54 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=work
+[Library]
+Tutorial1=.\Tutorial1\Tutorial1.lib
+work=.\work\work.lib
+pmi=.\..\pmi\pmi.lib
+[Settings]
+AccessRead=1
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=0
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+PriorityLibNames=
+LibNames=ovi_ice40up
+[LocalVhdlSets]
+CompileWithDebug=0
+[$LibMap$]
+Tutorial1=.
+work=.
+pmi=.
+[LocalVerilogDirs]
+Count=0
+[DefineMacro]
+Global=
+[Files]
+/C:\lscc\radiant\1.1\ip\pmi\pmi_iCE40UP.v=-1
+/..\..\tutorial1.vhd=-1
+/..\..\Tutorial1.asdb=-1
+/..\..\Tutorial1.awc=-1
+[Files.Data]
+C:\lscc\radiant\1.1\ip\pmi\pmi_iCE40UP.v=Verilog Source Code
+.\..\tutorial1.vhd=VHDL Source Code
+.\..\Tutorial1.asdb=Accelerated Waveform File
+.\..\Tutorial1.awc=Accelerated Waveform Configuration
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=tutorial1|Behavioral|0 
+ShowHide=ShowTopLevel
+Selected=
