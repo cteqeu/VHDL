@@ -1,0 +1,13 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port clk_1Hz -pg 1 -y 70 -defaultsOSRD
+preplace inst clk_example_1Hz_led_0 -pg 1 -lvl 2 -y 70 -defaultsOSRD
+preplace inst vhdlnoclk_0 -pg 1 -lvl 1 -y 80 -defaultsOSRD
+preplace netloc vhdlnoclk_0_clk65MHz 1 1 1 20
+preplace netloc clk_example_1Hz_led_0_clk_1Hz 1 2 1 N
+levelinfo -pg 1 -290 -80 140 280 -top -20 -bot 240
+"
+}
+

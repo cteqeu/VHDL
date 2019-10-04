@@ -1,0 +1,5 @@
+#Start recording tcl command: 5/19/2019 19:29:00
+#Project Location: D:/GIT/Github/DigitaleSystemenVHDL/Lattice/Tutorial_1; Project name: Tutorial_1
+prj_open "D:/GIT/Github/DigitaleSystemenVHDL/Lattice/Tutorial_1/Tutorial_1.rdf"
+launch_programmer_prj "C:/lscc/radiant/1.1"
+#Stop recording: 5/19/2019 20:48:58

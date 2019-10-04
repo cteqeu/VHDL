@@ -1,0 +1,67 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x0",
+      "device": "xc7z007sclg225-1",
+      "name": "design_1",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2018.3"
+    },
+    "design_tree": {
+      "vhdlnoclk_0": "",
+      "clk_example_1Hz_led_0": ""
+    },
+    "ports": {
+      "clk_1Hz": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "vhdlnoclk_0": {
+        "vlnv": "xilinx.com:module_ref:vhdlnoclk:1.0",
+        "xci_name": "design_1_vhdlnoclk_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "vhdlnoclk",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk65MHz": {
+            "direction": "O"
+          }
+        }
+      },
+      "clk_example_1Hz_led_0": {
+        "vlnv": "xilinx.com:module_ref:clk_example_1Hz_led:1.0",
+        "xci_name": "design_1_clk_example_1Hz_led_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "clk_example_1Hz_led",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk_65MHz": {
+            "direction": "I"
+          },
+          "clk_1Hz": {
+            "direction": "O"
+          }
+        }
+      }
+    },
+    "nets": {
+      "vhdlnoclk_0_clk65MHz": {
+        "ports": [
+          "vhdlnoclk_0/clk65MHz",
+          "clk_example_1Hz_led_0/clk_65MHz"
+        ]
+      },
+      "clk_example_1Hz_led_0_clk_1Hz": {
+        "ports": [
+          "clk_example_1Hz_led_0/clk_1Hz",
+          "clk_1Hz"
+        ]
+      }
+    }
+  }
+}
