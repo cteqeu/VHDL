@@ -1,0 +1,80 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xC2EE0AFDC2EE0AFD",
+      "device": "xc7z007sclg225-1",
+      "name": "design_1",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2019.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "Example_inout_0": ""
+    },
+    "ports": {
+      "ingang1_0": {
+        "direction": "I"
+      },
+      "ingang2_0": {
+        "direction": "I"
+      },
+      "uit_in_0": {
+        "direction": "IO"
+      },
+      "uitgang1_0": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "Example_inout_0": {
+        "vlnv": "xilinx.com:module_ref:Example_inout:1.0",
+        "xci_name": "design_1_Example_inout_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "Example_inout",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "ingang1": {
+            "direction": "I"
+          },
+          "ingang2": {
+            "direction": "I"
+          },
+          "uitgang1": {
+            "direction": "O"
+          },
+          "uit_in": {
+            "direction": "IO"
+          }
+        }
+      }
+    },
+    "nets": {
+      "ingang1_0_1": {
+        "ports": [
+          "ingang1_0",
+          "Example_inout_0/ingang1"
+        ]
+      },
+      "ingang2_0_1": {
+        "ports": [
+          "ingang2_0",
+          "Example_inout_0/ingang2"
+        ]
+      },
+      "Net": {
+        "ports": [
+          "uit_in_0",
+          "Example_inout_0/uit_in"
+        ]
+      },
+      "Example_inout_0_uitgang1": {
+        "ports": [
+          "Example_inout_0/uitgang1",
+          "uitgang1_0"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Mon Mar  9 15:20:06 2020" VIVADOVERSION="2019.2">
+
+  <SYSTEMINFO ARCH="zynq" BOARD="em.avnet.com:minized:part0:1.2" DEVICE="7z007s" NAME="design_1" PACKAGE="clg225" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="I" NAME="ingang1_0" SIGIS="undef" SIGNAME="External_Ports_ingang1_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Example_inout_0" PORT="ingang1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="ingang2_0" SIGIS="undef" SIGNAME="External_Ports_ingang2_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Example_inout_0" PORT="ingang2"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="IO" NAME="uit_in_0" SIGIS="undef" SIGNAME="External_Ports_uit_in_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Example_inout_0" PORT="uit_in"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="uitgang1_0" SIGIS="undef" SIGNAME="Example_inout_0_uitgang1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Example_inout_0" PORT="uitgang1"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE COREREVISION="1" FULLNAME="/Example_inout_0" HWVERSION="1.0" INSTANCE="Example_inout_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="Example_inout" VLNV="xilinx.com:module_ref:Example_inout:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_Example_inout_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="ingang1" SIGIS="undef" SIGNAME="External_Ports_ingang1_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="ingang1_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="ingang2" SIGIS="undef" SIGNAME="External_Ports_ingang2_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="ingang2_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="uitgang1" SIGIS="undef" SIGNAME="Example_inout_0_uitgang1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="uitgang1_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="IO" NAME="uit_in" SIGIS="undef" SIGNAME="External_Ports_uit_in_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="uit_in_0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

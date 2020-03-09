@@ -1,0 +1,2 @@
+design_1_Example_inout_0_0.vhd,vhdl,xil_defaultlib,../../../bd/design_1/ip/design_1_Example_inout_0_0/sim/design_1_Example_inout_0_0.vhd,
+design_1.vhd,vhdl,xil_defaultlib,../../../bd/design_1/sim/design_1.vhd,

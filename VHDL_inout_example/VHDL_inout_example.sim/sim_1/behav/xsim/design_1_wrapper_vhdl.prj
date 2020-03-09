@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../VHDL_inout_example.srcs/sources_1/new/Example_inout.vhd" \
+"../../../../VHDL_inout_example.ip_user_files/bd/design_1/ip/design_1_Example_inout_0_0/sim/design_1_Example_inout_0_0.vhd" \
+"../../../../VHDL_inout_example.ip_user_files/bd/design_1/sim/design_1.vhd" \
+"../../../../VHDL_inout_example.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd" \
+
+# Do not sort compile order
+nosort
