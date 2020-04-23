@@ -1,0 +1,139 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x464BBCBFBBEDEA2E",
+      "device": "xc7z007sclg225-1",
+      "name": "design_1",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2019.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "vhdlnoclk_0": "",
+      "clk_wiz_0": "",
+      "vhdl_clockdivider_19_0": ""
+    },
+    "ports": {
+      "clk1Hz": {
+        "direction": "O"
+      },
+      "clk10MHz": {
+        "type": "clk",
+        "direction": "O",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "/clk_wiz_0_clk_out1",
+            "value_src": "ip_prop"
+          },
+          "FREQ_HZ": {
+            "value": "10000000"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "ip_prop"
+          }
+        }
+      }
+    },
+    "components": {
+      "vhdlnoclk_0": {
+        "vlnv": "xilinx.com:module_ref:vhdlnoclk:1.0",
+        "xci_name": "design_1_vhdlnoclk_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "vhdlnoclk",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk65MHz": {
+            "direction": "O"
+          }
+        }
+      },
+      "clk_wiz_0": {
+        "vlnv": "xilinx.com:ip:clk_wiz:6.0",
+        "xci_name": "design_1_clk_wiz_0_0",
+        "parameters": {
+          "CLKIN1_JITTER_PS": {
+            "value": "153.84"
+          },
+          "CLKOUT1_JITTER": {
+            "value": "240.438"
+          },
+          "CLKOUT1_PHASE_ERROR": {
+            "value": "106.709"
+          },
+          "CLKOUT1_REQUESTED_OUT_FREQ": {
+            "value": "10"
+          },
+          "CLK_OUT1_PORT": {
+            "value": "clk10MHz"
+          },
+          "MMCM_CLKFBOUT_MULT_F": {
+            "value": "15.500"
+          },
+          "MMCM_CLKIN1_PERIOD": {
+            "value": "15.385"
+          },
+          "MMCM_CLKIN2_PERIOD": {
+            "value": "10.0"
+          },
+          "MMCM_CLKOUT0_DIVIDE_F": {
+            "value": "100.750"
+          },
+          "PRIM_IN_FREQ": {
+            "value": "65"
+          },
+          "USE_LOCKED": {
+            "value": "false"
+          },
+          "USE_RESET": {
+            "value": "false"
+          }
+        }
+      },
+      "vhdl_clockdivider_19_0": {
+        "vlnv": "xilinx.com:module_ref:vhdl_clockdivider_1920:1.0",
+        "xci_name": "design_1_vhdl_clockdivider_19_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "vhdl_clockdivider_1920",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk_in": {
+            "direction": "I"
+          },
+          "clk_out1": {
+            "direction": "O"
+          }
+        }
+      }
+    },
+    "nets": {
+      "vhdl_clockdivider_19_0_clk_out1": {
+        "ports": [
+          "vhdl_clockdivider_19_0/clk_out1",
+          "clk1Hz"
+        ]
+      },
+      "vhdlnoclk_0_clk65MHz": {
+        "ports": [
+          "vhdlnoclk_0/clk65MHz",
+          "clk_wiz_0/clk_in1",
+          "vhdl_clockdivider_19_0/clk_in"
+        ]
+      },
+      "clk_wiz_0_clk10MHz": {
+        "ports": [
+          "clk_wiz_0/clk10MHz",
+          "clk10MHz"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../VHDL_1920_ClockDividers.srcs/sources_1/new/vhdl_clockdivider_1920.vhd" \
+"../../../../VHDL_1920_ClockDividers.ip_user_files/bd/design_1/ip/design_1_vhdl_clockdivider_19_0_0/sim/design_1_vhdl_clockdivider_19_0_0.vhd" \
+"../../../../VHDL_1920_ClockDividers.ip_user_files/bd/design_1/sim/design_1.vhd" \
+"../../../../VHDL_1920_ClockDividers.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.vhd" \
+
+# Do not sort compile order
+nosort

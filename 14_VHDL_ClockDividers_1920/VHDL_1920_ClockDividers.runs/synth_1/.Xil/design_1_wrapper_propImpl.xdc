@@ -1,0 +1,5 @@
+set_property SRC_FILE_INFO {cfile:C:/devWorks/FPGA/VHDL_1920_ClockDividers/VHDL_1920_ClockDividers.srcs/constrs_1/new/VHDL_1920_ClockDividers.xdc rfile:../../../VHDL_1920_ClockDividers.srcs/constrs_1/new/VHDL_1920_ClockDividers.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:3 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN N12 [get_ports clk1Hz]
+set_property src_info {type:XDC file:1 line:4 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN N11 [get_ports clk10MHz]
