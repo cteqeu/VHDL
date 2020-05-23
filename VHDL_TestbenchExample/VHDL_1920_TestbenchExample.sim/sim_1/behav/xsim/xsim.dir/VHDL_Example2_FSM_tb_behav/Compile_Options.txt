@@ -1,0 +1,1 @@
+-wto "742fe19ce56340298b26fa4a907e4a67" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "VHDL_Example2_FSM_tb_behav" "xil_defaultlib.VHDL_Example2_FSM_tb" -log "elaborate.log" 

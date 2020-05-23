@@ -1,0 +1,4 @@
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+Error: Failed Test Case 3
+Time: 700 ns  Iteration: 0  Process: /VHDL_Example2_FSM_tb/DUT_TB  File: C:/devWorks/PETEMP/VHDL_1920_TestbenchExample/VHDL_1920_TestbenchExample.srcs/sim_1/new/VHDL_Example2_FSM_tb.vhd

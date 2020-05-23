@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sat May 23 12:37:36 2020
+# Process ID: 12132
+# Current directory: C:/devWorks/PETEMP/VHDL_1920_TestbenchExample/VHDL_1920_TestbenchExample.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/devWorks/PETEMP/VHDL_1920_TestbenchExample/VHDL_1920_TestbenchExample.sim/sim_1/behav/xsim/xsim.dir/VHDL_Example1_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/devWorks/PETEMP/VHDL_1920_TestbenchExample/VHDL_1920_TestbenchExample.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/devWorks/PETEMP/VHDL_1920_TestbenchExample/VHDL_1920_TestbenchExample.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/devWorks/PETEMP/VHDL_1920_TestbenchExample/VHDL_1920_TestbenchExample.sim/sim_1/behav/xsim/xsim.dir/VHDL_Example1_tb_behav/webtalk/xsim_webtalk.tcl -notrace
