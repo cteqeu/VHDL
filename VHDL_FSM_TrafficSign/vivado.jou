@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sat May 23 13:24:11 2020
+# Process ID: 23796
+# Current directory: C:/Github/Own/DigitaleSystemenVHDL/VHDL_FSM_TrafficSign
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21780 C:\Github\Own\DigitaleSystemenVHDL\VHDL_FSM_TrafficSign\VHDL_FSM_Example.xpr
+# Log file: C:/Github/Own/DigitaleSystemenVHDL/VHDL_FSM_TrafficSign/vivado.log
+# Journal file: C:/Github/Own/DigitaleSystemenVHDL/VHDL_FSM_TrafficSign\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Github/Own/DigitaleSystemenVHDL/VHDL_FSM_TrafficSign/VHDL_FSM_Example.xpr
+update_compile_order -fileset sources_1
+file mkdir C:/Github/Own/DigitaleSystemenVHDL/VHDL_FSM_TrafficSign/VHDL_FSM_Example.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Github/Own/DigitaleSystemenVHDL/VHDL_FSM_TrafficSign/VHDL_FSM_Example.srcs/sim_1/new/VHDL_FSM_Example_TB.vhd w ]
+add_files -fileset sim_1 C:/Github/Own/DigitaleSystemenVHDL/VHDL_FSM_TrafficSign/VHDL_FSM_Example.srcs/sim_1/new/VHDL_FSM_Example_TB.vhd
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
