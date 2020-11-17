@@ -1,0 +1,7 @@
+set_property SRC_FILE_INFO {cfile:C:/devWorks/Hello_Pynq/Hello_Pynq.srcs/constrs_1/new/Hello_Pynq.xdc rfile:../../../Hello_Pynq.srcs/constrs_1/new/Hello_Pynq.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:4 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN R14 [get_ports LED0]
+set_property src_info {type:XDC file:1 line:5 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN M20 [get_ports SW0]
+set_property src_info {type:XDC file:1 line:6 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN M19 [get_ports SW1]
