@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Webtalk v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Dec  9 09:27:45 2020
+# Process ID: 17580
+# Current directory: C:/devWorks/VHDL_Encoders_Decoders_Adders/VHDL_Encoders_Decoders_Adders.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/devWorks/VHDL_Encoders_Decoders_Adders/VHDL_Encoders_Decoders_Adders.sim/sim_1/behav/xsim/xsim.dir/prior_encoder_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/devWorks/VHDL_Encoders_Decoders_Adders/VHDL_Encoders_Decoders_Adders.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/devWorks/VHDL_Encoders_Decoders_Adders/VHDL_Encoders_Decoders_Adders.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/devWorks/VHDL_Encoders_Decoders_Adders/VHDL_Encoders_Decoders_Adders.sim/sim_1/behav/xsim/xsim.dir/prior_encoder_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Wed Dec  9 09:27:45 2020...
