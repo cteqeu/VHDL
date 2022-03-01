@@ -1,0 +1,7 @@
+Running: xsim.dir/DS_CLK_LEDS_behav/xsimk.exe -simmode gui -wdb DS_CLK_LEDS_behav.wdb -simrunnum 0 -socket 55568
+Design successfully loaded
+Design Loading Memory Usage: 7084 KB (Peak: 7084 KB)
+Design Loading CPU Usage: 62 ms
+Simulation completed
+Simulation Memory Usage: 15588 KB (Peak: 15588 KB)
+Simulation CPU Usage: 127452 ms

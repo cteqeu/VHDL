@@ -1,0 +1,19 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-392,-193",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS-threadsafe
+#  -string -flagsOSRD
+preplace port port-id_clk_in1_0 -pg 1 -lvl 0 -x 0 -y 60 -defaultsOSRD
+preplace portBus leds_0 -pg 1 -lvl 3 -x 430 -y 60 -defaultsOSRD
+preplace inst DS_CLK_LEDS_0 -pg 1 -lvl 2 -x 310 -y 60 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 1 -x 110 -y 60 -defaultsOSRD
+preplace netloc DS_CLK_LEDS_0_leds 1 2 1 NJ 60
+preplace netloc clk_in1_0_1 1 0 1 NJ 60
+preplace netloc clk_wiz_0_clk_out1 1 1 1 NJ 60
+levelinfo -pg 1 0 110 310 430
+pagesize -pg 1 -db -bbox -sgen -110 0 550 120
+"
+}
+
