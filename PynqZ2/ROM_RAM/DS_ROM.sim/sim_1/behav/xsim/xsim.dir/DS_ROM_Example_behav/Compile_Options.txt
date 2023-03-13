@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "DS_ROM_Example_behav" "xil_defaultlib.DS_ROM_Example" -log "elaborate.log" 
